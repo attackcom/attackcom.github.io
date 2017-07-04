@@ -13,11 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-document.addEventListener(
-   'DOMContentLoaded', function () {   
-     function audioAutoPlay() { 
-     var audio = document.getElementById('bg-music'); audio.play(); 
-     document.addEventListener("WeixinJSBridgeReady", function () { audio.play();  }, false);  } audioAutoPlay();});
 (function() {
 
     /* return a int random num */
