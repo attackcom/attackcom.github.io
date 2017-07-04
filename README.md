@@ -9,7 +9,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 <audio style="display:none; height: 0" id="bgmusic" preload="auto" src="bgm/nyancat.mp3" loop="loop"></audio>
 <script>
 function autoPlayAudio2() {
-document.addEventListener('DOMContentLoaded', function () {    function audioAutoPlay() {        var audio = document.getElementById('bgmusic');            audio.play();        document.addEventListener("WeixinJSBridgeReady", function () {            audio.play();        }, false);    }    audioAutoPlay();}); 
+document.addEventListener('DOMContentLoaded', function () {    function audioAutoPlay() {        var audio = document.getElementById('bgmusic');            /*audio.play();*/        document.addEventListener("WeixinJSBridgeReady", function () {            audio.play();        }, false);    }    audioAutoPlay();}); 
  }
  autoPlayAudio2(); 
    
