@@ -6,7 +6,22 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 {% raw %} 
 <link type="text/css" rel="stylesheet" href="css/style.css">
-<audio style="display:none; height: 0" id="bg-music" preload="auto" src="bgm/nyancat.mp3" loop="loop"></audio>
+<audio style="display:none; height: 0" id="bgmusic" preload="auto" src="bgm/nyancat.mp3" loop="loop"></audio>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+    function autoPlayAudio2() {
+        window.onload = function() {
+            // alert(typeof WeixinJSBridge);
+            WeixinJSBridge.invoke('getNetworkType', {}, function(e) {
+                // 在这里拿到 e.err_msg, 这里面就包含了所有的网络类型
+                // alert(e.err_msg);
+                document.getElementById('bgmusic').play();
+            });
+        };
+    }
+ 
+    autoPlayAudio2(); // 也可以试一试方法2
+</script>
 <script src="js/nyancat.js"></script>
 {% endraw %}
 
