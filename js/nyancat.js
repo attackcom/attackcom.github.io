@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 (function() {
 
     /* return a int random num */
@@ -63,18 +64,6 @@
     /* cat array used to manage */
     var cats = [];
     
-    function audioAutoPlay() {
-    document.addEventListener("WeixinJSBridgeReady", function () {
-        var bgm = document.createElement('audio');
-        bgm.autoplay = 'autoplay';
-        bgm.loop = 'loop';
-        var src3 = document.createElement('source');
-        src3.src = 'bgm/nyancat.mp3';
-        src3.type = 'audio/mpeg';
-        bgm.appendChild(src3);
-       
-     }, false);
-        }
 
     /* load callback */
     function load() {
@@ -96,7 +85,16 @@
         bgm.appendChild(src2);
         document.body.appendChild(bgm);
     }
-
+ function setTimeout(function(){  
+         $(window).scrollTop(1);  
+     },0);  
+      document.getElementById('car_audio').play();  
+      document.addEventListener("WeixinJSBridgeReady", function () {  
+            WeixinJSBridge.invoke('getNetworkType', {}, function (e) {  
+                document.getElementById('car_audio').play();  
+            });  
+      }, false);  
+    
     /* update callback */
     function update(dt) {
         cats.forEach(function (cat) {
