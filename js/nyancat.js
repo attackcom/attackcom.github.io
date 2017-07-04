@@ -85,12 +85,6 @@
         bgm.appendChild(src2);
         document.body.appendChild(bgm);
     }
- function setTimeout(){
-      document.addEventListener("WeixinJSBridgeReady", function () {  
-            WeixinJSBridge.invoke('getNetworkType', {}, function (e) {  
-                document.getElementById('car_audio').play();  
-            });  
-      })  };  
     
     /* update callback */
     function update(dt) {
