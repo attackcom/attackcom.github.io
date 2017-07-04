@@ -70,7 +70,7 @@
         for (var n = 0; n < 20; n++) {
             cats[n] = new Cat();
         }
-        /* play bgm */
+        /* play bgm 
         var bgm = document.createElement('audio');
         bgm.autoplay = 'autoplay';
         bgm.loop = 'loop';
@@ -82,7 +82,7 @@
         src2.src = 'bgm/nyancat.ogg';
         src2.type = 'audio/ogg';
         bgm.appendChild(src2);
-        document.body.appendChild(bgm);
+        document.body.appendChild(bgm);*/
 
     }
     
