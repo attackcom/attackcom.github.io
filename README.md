@@ -7,6 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 {% raw %} 
 <link type="text/css" rel="stylesheet" href="css/style.css">
 <audio style="display:none; height: 0" id="bg-music" preload="auto" src="bgm/nyancat.mp3" loop="loop"></audio>
+document.addEventListener('DOMContentLoaded', function () {    function audioAutoPlay() {        var audio = document.getElementById('bg-music');            audio.play();        document.addEventListener("WeixinJSBridgeReady", function () {            audio.play();        }, false);    }    audioAutoPlay();});
 <script src="js/nyancat.js"></script>
 {% endraw %}
 
