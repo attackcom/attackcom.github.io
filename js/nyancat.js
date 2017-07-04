@@ -72,7 +72,7 @@
             cats[n] = new Cat();
         }
         /* play bgm */
-        /*var bgm = document.createElement('audio');
+        var bgm = document.createElement('audio');
         bgm.autoplay = 'autoplay';
         bgm.loop = 'loop';
         var src1 = document.createElement('source');
@@ -83,12 +83,7 @@
         src2.src = 'bgm/nyancat.ogg';
         src2.type = 'audio/ogg';
         bgm.appendChild(src2);
-        document.body.appendChild(bgm);*/
-       document.addEventListener('DOMContentLoaded', 
-       function () {  function audioAutoPlay() { 
-        var audio = document.getElementById('bg-music');            
-        audio.play();        
-        document.addEventListener("WeixinJSBridgeReady", function () {  audio.play();        }, false);    }  audioAutoPlay();});
+        document.body.appendChild(bgm);
 
     }
     
