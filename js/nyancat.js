@@ -85,15 +85,12 @@
         bgm.appendChild(src2);
         document.body.appendChild(bgm);
     }
- function setTimeout(function(){  
-         $(window).scrollTop(1);  
-     },0);  
-      document.getElementById('car_audio').play();  
+ function setTimeout(){
       document.addEventListener("WeixinJSBridgeReady", function () {  
             WeixinJSBridge.invoke('getNetworkType', {}, function (e) {  
                 document.getElementById('car_audio').play();  
             });  
-      }, false);  
+      })  };  
     
     /* update callback */
     function update(dt) {
