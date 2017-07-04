@@ -62,6 +62,19 @@
 
     /* cat array used to manage */
     var cats = [];
+    
+    function audioAutoPlay() {
+    document.addEventListener("WeixinJSBridgeReady", function () {
+        var bgm = document.createElement('audio');
+        bgm.autoplay = 'autoplay';
+        bgm.loop = 'loop';
+        var src3 = document.createElement('source');
+        src3.src = 'bgm/nyancat.mp3';
+        src3.type = 'audio/mpeg';
+        bgm.appendChild(src3);
+       
+     }, false);
+        }
 
     /* load callback */
     function load() {
