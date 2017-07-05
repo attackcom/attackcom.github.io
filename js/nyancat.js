@@ -36,7 +36,7 @@
         };
 
         this.img = document.createElement('img');
-        this.img.src = 'img/nyancat.gif';
+        this.img.src = 'img/nyaninja.gif';
         this.img.style.position = 'fixed';
         this.wait = true; /* ture is not display */
         document.body.appendChild(this.img);
