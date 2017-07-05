@@ -36,7 +36,7 @@
         };
 
         this.img = document.createElement('img');
-        this.img.src = 'img/wtf.gif';
+        this.img.src = 'img/nyancat.gif';
         this.img.style.position = 'fixed';
         this.wait = true; /* ture is not display */
         document.body.appendChild(this.img);
