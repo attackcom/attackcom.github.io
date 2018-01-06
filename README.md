@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 {% raw %} 
 
-<script src=“kouling.js“></script>
+<script src="js/kouling.js"></script>
 
 <link type="text/css" rel="stylesheet" href="css/style.css">
 
