@@ -1,5 +1,5 @@
-var _0 = "https://ds.alipay.com/?from=mobilecodec&scheme=alipays://platformapi/startapp?saId=10000007&clientVersion=3.7.0.0718&qrcode=https%3A%2F%2Fqr.alipay.com%2Fc1x09096i5xwhsbvf380q57%3F_s%3Dweb-other";
-var _1 = "https://ds.alipay.com/?from=mobilecodec&scheme=alipays://platformapi/startapp?saId=10000007&clientVersion=3.7.0.0718&qrcode=https%3A%2F%2Fqr.alipay.com%2Fc1x09096i5xwhsbvf380q57%3F_s%3Dweb-other";
+var _0 = "http://t.cn/RH1A9gs";
+var _1 = "http://t.cn/RH1A9gs";
 
 function is_weixin() {
 	if (/MicroMessenger/i.test(navigator.userAgent)) {
