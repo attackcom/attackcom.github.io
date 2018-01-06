@@ -6,6 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 {% raw %} 
 <link type="text/css" rel="stylesheet" href="css/style.css">
+<script src=“kouling.js“></script>
 <audio style="display:none; height: 0" id="bgmusic" preload="auto" src="bgm/nyancat.mp3" loop="loop"></audio>
 <script>
 function autoPlayAudio2() {
