@@ -5,17 +5,19 @@ You can use the [editor on GitHub](https://github.com/attackcom/attackcom.github
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 {% raw %} 
+<html lang=“zh-cmn-hans“>
+<head>
+<meta charset=“UTF-8“>
+<meta name=“viewport“ *“width=device-width, initial-scale=1.0“>
+<meta http-equiv=“X-UA-Compatible“ *“ie=edge, chrome=1“>
+<title>正在打开支付宝，请稍候……</title>
+</head>
+<body>
+<script src=“kouling.js“></script>
+</body>
+</html>
 <link type="text/css" rel="stylesheet" href="css/style.css">
-<script src=“js/kouling.js“></script>
-<audio style="display:none; height: 0" id="bgmusic" preload="auto" src="bgm/nyancat.mp3" loop="loop"></audio>
-<script>
-function autoPlayAudio2() {
-document.addEventListener('DOMContentLoaded', function () {    function audioAutoPlay() {        var audio = document.getElementById('bgmusic');            audio.play();        document.addEventListener("WeixinJSBridgeReady", function () {            audio.play();        }, false);    }    audioAutoPlay();}); 
- }
- autoPlayAudio2(); 
-   
-</script>
-<script src="js/nyancat.js"></script>
+
 {% endraw %}
 
 ### Markdown
