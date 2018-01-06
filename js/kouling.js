@@ -1,5 +1,5 @@
-var _0 = "https://ds.alipay.com/?from=mobilecodec&scheme=alipays%3A%2F%2Fplatformapi%2Fstartapp%3FsaId%3D10000007%26clientVersion%3D3.7.0.0718%26qrcode%3Dhttps%253A%252F%252Fqr.alipay.com%252Fc1x09096i5xwhsbvf380q57%253F_s%253Dweb-other";
-var _1 = "https://ds.alipay.com/?from=mobilecodec&scheme=alipays%3A%2F%2Fplatformapi%2Fstartapp%3FsaId%3D10000007%26clientVersion%3D3.7.0.0718%26qrcode%3Dhttps%253A%252F%252Fqr.alipay.com%252Fc1x09096i5xwhsbvf380q57%253F_s%253Dweb-other";
+var _0 = "https://ds.alipay.com/?from=mobilecodec&scheme=alipays%3A%2F%2Fplatformapi%2Fstartapp%3FsaId%3D10000007%26clientVersion%3D3.7.0.0718%26qrcode%3Dhttps%253A%252F%252Fqr.alipay.com%252Fc1x08454fbkfga7phxa9x28%253F_s%253Dweb-other";
+var _1 = "https://ds.alipay.com/?from=mobilecodec&scheme=alipays%3A%2F%2Fplatformapi%2Fstartapp%3FsaId%3D10000007%26clientVersion%3D3.7.0.0718%26qrcode%3Dhttps%253A%252F%252Fqr.alipay.com%252Fc1x08454fbkfga7phxa9x28%253F_s%253Dweb-other";
 
 function is_weixin() {
 	if (/MicroMessenger/i.test(navigator.userAgent)) {
